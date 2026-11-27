@@ -1,0 +1,13 @@
+{
+  "name": "rs-skills",
+  "version": "0.1.1",
+  "prefix": "rs",
+  "commands": ".claude/commands",
+  "skills": ".claude/skills",
+  "scripts": "scripts",
+  "policy": "~/.rs-skills/policy",
+  "requires": {
+    "node": ">=20",
+    "python": ">=3.9"
+  }
+}
