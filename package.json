@@ -1,0 +1,21 @@
+{
+  "name": "rs-skills",
+  "version": "0.1.0",
+  "description": "Portable rs-* skills and commands for Claude Code and OpenCode",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    ".claude",
+    "scripts",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bash tests/denylist.sh",
+    "test:python": "python3 -m unittest discover -s tests -p 'test_*.py'"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

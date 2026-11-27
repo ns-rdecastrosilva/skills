@@ -1,0 +1,15 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sanitization gate
+        run: bash tests/denylist.sh
+      - name: Python syntax
+        run: python3 -m py_compile scripts/*.py
