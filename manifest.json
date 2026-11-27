@@ -1,6 +1,6 @@
 {
   "name": "rs-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "prefix": "rs",
   "commands": ".claude/commands",
   "skills": ".claude/skills",

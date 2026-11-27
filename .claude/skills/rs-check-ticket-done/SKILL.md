@@ -21,7 +21,7 @@ procedure. It composes the shared references.
 ## Policy hook
 
 Read every file that matches
-`~/.rs-skills/policy/*/check-ticket-done.md`. A policy file adds environment
+`~/.rs-skills/policy/*/rs-check-ticket-done.md`. A policy file adds environment
 rules: tracker mapping, environment access, legacy comparison, and repository
 names. The policy wins over this skill when they conflict.
 

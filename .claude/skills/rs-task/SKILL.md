@@ -23,9 +23,9 @@ outcome before planning.
 ## Policy hook
 
 Before phase 0, read every file that matches
-`~/.rs-skills/policy/*/task.md`. A policy file adds environment-specific rules:
-repositories, tracker conventions, credentials, deployment targets, and PR
-requirements. The policy wins over this skill when they conflict. Never copy
+`~/.rs-skills/policy/*/rs-task.md`. A policy file adds environment-specific
+rules: repositories, tracker conventions, credentials, deployment targets, and
+PR requirements. The policy wins over this skill when they conflict. Never copy
 policy content into a public artifact.
 
 ## Orchestration

@@ -28,6 +28,13 @@ Examples:
 /rs:code-review --dry-run
 ```
 
+## Policy hook
+
+Before phase 0, read every file that matches
+`~/.rs-skills/policy/*/rs-code-review.md`. A policy file adds
+repository-specific review rules. The policy wins over this skill when they
+conflict.
+
 ## Hard rules
 
 1. The pull request is the unit of review. Never review the working tree, staged changes, or another commit.
