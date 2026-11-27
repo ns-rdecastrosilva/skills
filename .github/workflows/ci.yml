@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Sanitization gate
         run: bash tests/denylist.sh
-      - name: Python syntax
-        run: python3 -m py_compile scripts/*.py
+      - name: Python tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
